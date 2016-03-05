@@ -5,7 +5,7 @@ import com.yahoo.elide.security.checks.UserCheck;
 import org.springframework.security.authentication.AbstractAuthenticationToken;
 
 /**
- * Admins can create new entities
+ * A security check that passes for admin users
  */
 public class AdminCheck extends UserCheck {
     @Override
